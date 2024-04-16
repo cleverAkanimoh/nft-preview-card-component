@@ -9,6 +9,7 @@
 body {
   font-family: "Outfit";
   font-weight: 300;
+  font-size: 18px;
   background-color: hsl(217, 54%, 11%);
   color: hsl(215, 51%, 70%);
   padding: 2rem;
@@ -24,6 +25,8 @@ main {
   padding: 1.8rem;
   background-color: hsl(216, 50%, 16%);
   border-radius: 0.5rem;
+  max-width: 400px;
+  /* box-shadow: white -20px -20px, white 10px 10px; */
 }
 
 main > img {
@@ -62,7 +65,7 @@ figure {
 }
 
 #avatar-figure {
-    gap: 2rem;
+  gap: 2rem;
 }
 
 #avatar-figure > img {
@@ -72,5 +75,5 @@ figure {
 }
 
 #jules {
-    color: white;
+  color: white;
 }
