@@ -29,9 +29,34 @@ main {
   /* box-shadow: white -20px -20px, white 10px 10px; */
 }
 
-main > img {
+#image-div {
+  position: relative;
+  overflow: hidden;
+  transition: all 5000ms;
+  cursor: pointer;
+}
+
+#image-div:hover #view-div {
+  visibility: visible;
+  border-radius: 0.5rem;
+}
+
+main > div > img {
   width: 100%;
   border-radius: 0.5rem;
+}
+
+#view-div {
+  position: absolute;
+  visibility: hidden;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(178, 100%, 50%, 0.338);
 }
 
 section {
